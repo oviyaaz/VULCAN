@@ -1,0 +1,35 @@
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.7 !important;
+}
+
+.slick-prev::before,
+.slick-next::after,
+.slick-next::before,
+.slick-prev::after {
+    /* background-color: green; */
+    /* color:white; */
+    color: #0055B4 !important;
+    position: absolute !important;
+    font-size: 30px;
+}
+
+.slick-prev {
+    opacity: 0.4 !important;
+    color: #0055B4 !important;
+    position: absolute !important;
+    z-index: 100 !important;
+    left: 0px !important;
+}
+
+.slick-next {
+    opacity: 0.4 !important;
+    color: #0055B4 !important;
+    right: 40px !important;
+}
+
+.imageGridView {
+    height: 75vh !important;
+    border: 2px solid #DEEDFF !important;
+    /* overflow-y: scroll !important; */
+}
